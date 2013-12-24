@@ -4,7 +4,7 @@ defmodule Elixiak.Mixfile do
   def project do
     [ app: :elixiak,
       version: "0.0.1",
-      elixir: "~> 0.11.0",
+      elixir: "~> 0.11.0 or ~> 0.12.00",
       deps: deps ]
   end
 
